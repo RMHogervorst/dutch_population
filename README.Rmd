@@ -1,0 +1,22 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# dutch_population
+
+The goal of dutch_population is to create modified maps of the Netherlands based on population density.
+
+things I 'd like to try:
+
+* population ridge lines like James Cheshire http://spatial.ly/2017/04/population-lines-how-and-why-i-created-it/
+* morph the map so that municipalities are shrinked or enlarged based on their population.
+
